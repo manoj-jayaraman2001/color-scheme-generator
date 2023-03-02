@@ -37,7 +37,9 @@ function renderColors(){
             for(element of array){
                 element.addEventListener('click',()=>{
                 navigator.clipboard.writeText(element.id)
-                alert('copied!')
+                let popup = document.getElementById('popup')
+                popup.style.display = 'block';
+                setTimeout(()=>{popup.style.display = 'none'},1000)
              })
             }
         })

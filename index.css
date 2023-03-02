@@ -100,3 +100,20 @@ section{
 .rectangle:hover{
     transform: scale(1.03);
 }
+
+
+
+#popup{
+    position: fixed;
+    bottom: 20%;
+    left: auto;
+    right: auto;
+    display: none;
+    width: fit-content;
+    font-size: 10px;
+    padding: 4px 8px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    border-radius: 6px;
+}
