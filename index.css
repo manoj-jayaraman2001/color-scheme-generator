@@ -6,16 +6,28 @@ body{
     
     margin: 0;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    text-align: center;
     justify-content: center;
     font-family: 'Inter', sans-serif;
 }
+
+
+
 .content{
-  
-    height: 550px;
-    width: 550px;
+    margin: 0;
+    height: 45%;
+    width: 45%;
    
 }
+
+
+#head{
+    font-family: cursive;
+    color: crimson;
+    
+}
+
 /* ---------------header section --------------------*/
 header{
     height: 90px;
